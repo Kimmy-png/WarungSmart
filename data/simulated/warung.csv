@@ -1,0 +1,7 @@
+warung_id,nama,populasi,frac_sku,sku_aktif,mult_harga
+W1,Campuran kos-perumahan,60,0.6,163,1.0
+W2,Dekat kampus,90,0.5,138,0.97
+W3,Perumahan,45,0.7,189,1.03
+W4,Kos padat,80,0.45,123,1.0
+W5,Pinggir jalan (pekerja/ojol),55,0.55,149,1.02
+W6,Dekat pasar (ibu-ibu),50,0.7,189,0.98

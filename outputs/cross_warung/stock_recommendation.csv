@@ -1,0 +1,46 @@
+warung_id,produk,stok_sekarang,laju_jual_saya,laju_jual_peer,hari_stok_sisa,stok_target_disarankan,saran_tambah
+W1,Terminal listrik,0,0.1,0.04,0.0,1,1
+W1,Coca-Cola 390ml,1,3.02,1.28,0.3,9,8
+W1,Nutrisari sachet,9,4.98,6.55,1.8,46,37
+W1,Amplop,1,0.42,0.37,2.4,3,2
+W1,Spidol Snowman,1,0.38,0.37,2.7,3,2
+W1,Basreng 100g,8,2.85,3.61,2.8,26,18
+W1,Permen karet Big Babol,11,3.73,4.63,2.9,33,22
+W1,Sampoerna A 16 batang,4,1.38,1.45,2.9,11,7
+W2,Minyak kayu putih Cap Lang 30ml (Obat),0,0.9,0.16,0.0,2,2
+W2,Pembalut Laurier,0,0.3,0.14,0.0,1,1
+W2,Plastik kresek kecil,0,0.17,0.21,0.0,2,2
+W2,Minyak kayu putih Cap Lang 30ml (Bayi),0,0.21,0.05,0.0,1,1
+W2,Bohlam LED Hannochs 9W,0,0.16,0.07,0.0,1,1
+W2,Pocari Sweat 350ml,2,9.65,3.45,0.2,25,23
+W2,Extra Joss,4,7.32,2.74,0.5,20,16
+W2,Basreng 100g,5,6.12,5.57,0.8,39,34
+W2,Indomie Cup,9,10.01,4.7,0.9,33,24
+W2,Kopiko 78C 240ml,6,6.06,4.84,1.0,34,28
+W2,Balsem Geliga 20g,1,0.7,0.95,1.4,7,6
+W2,Ultra Milk 250ml,12,8.18,4.54,1.5,32,20
+W2,Keripik kentang Chitato 68g,10,4.88,5.68,2.0,40,30
+W2,Buku tulis Kiky,1,0.41,0.39,2.5,3,2
+W3,Buku tulis Kiky,0,0.1,0.12,0.0,1,1
+W3,Amplop,0,0.06,0.05,0.0,1,1
+W4,Teh Tong Tji sachet,2,5.99,4.09,0.3,29,27
+W4,Extra Joss sachet,5,8.68,4.99,0.6,35,30
+W4,Kopiko 78C 240ml,6,6.67,4.54,0.9,32,26
+W4,Indomie Cup,15,9.4,5.0,1.6,36,21
+W4,Mi jumbo Indomie,8,4.83,4.16,1.7,30,22
+W4,Antangin sachet,1,0.54,0.65,1.9,5,4
+W4,Kratingdaeng 150ml,12,4.34,4.92,2.8,35,23
+W5,Downy sachet,0,0.39,0.21,0.0,2,2
+W5,Pembalut Charm,0,0.15,0.15,0.0,2,2
+W5,Korek kayu,1,3.61,1.31,0.3,10,9
+W5,Good Day 250ml,3,2.41,3.15,1.2,23,20
+W5,Teh Tong Tji sachet,5,3.32,2.86,1.5,21,16
+W5,Ultra Milk 250ml,3,1.75,1.23,1.7,9,6
+W5,Sampoerna A 16 batang,3,1.69,1.02,1.8,8,5
+W6,Tolak Angin sachet,0,0.33,0.09,0.0,1,1
+W6,Sabun cair Lifebuoy 250ml,0,0.57,0.28,0.0,2,2
+W6,Sabun batang Lux,0,0.64,0.52,0.0,4,4
+W6,Penggaris Butterfly 30cm,0,0.05,0.06,0.0,1,1
+W6,Spons (kebersihan),1,0.72,0.4,1.4,3,2
+W6,Tepung terigu Segitiga Biru 1kg,2,1.22,1.25,1.6,9,7
+W6,Tepung beras Rose Brand 500g,3,1.27,1.13,2.4,8,5

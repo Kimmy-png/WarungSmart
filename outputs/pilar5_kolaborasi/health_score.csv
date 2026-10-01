@@ -1,0 +1,7 @@
+warung_id,nama,skor_total,omzet,margin,frekuensi,basket,stockout,grade
+W2,Dekat kampus,58,88,31,84,50,27,C
+W3,Perumahan,56,40,80,34,49,79,C
+W5,Pinggir jalan (pekerja/ojol),54,59,42,55,49,61,C
+W1,Campuran kos-perumahan,53,31,56,32,51,100,C
+W4,Kos padat,45,41,82,53,53,0,C
+W6,Dekat pasar (ibu-ibu),45,48,21,47,51,59,C

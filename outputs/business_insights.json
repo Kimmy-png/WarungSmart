@@ -1,0 +1,393 @@
+{
+    "top_products_units": {
+        "Mi goreng Indomie": 15065,
+        "Kopi Kapal Api sachet": 13861,
+        "Extra Joss sachet": 12844,
+        "Kopiko 78C 240ml": 12466,
+        "Indomie Cup": 11935,
+        "Nutrisari sachet": 11893,
+        "Pocari Sweat 350ml": 11788,
+        "Ultra Milk 250ml": 11593,
+        "Basreng 100g": 10566,
+        "Keripik kentang Chitato 68g": 10396
+    },
+    "top_products_revenue": {
+        "Surya 16 batang": 143344000,
+        "Esse 16 batang": 132378000,
+        "Keripik kentang Chitato 68g": 129396000,
+        "Djarum Super 16 batang": 119853000,
+        "Beras medium SPHP 5kg": 114042500,
+        "Sampoerna Mild 16 batang": 107343500,
+        "Sampoerna A 16 batang": 101245000,
+        "Marlboro 16 batang": 101223500,
+        "Gudang Garam 16 batang": 96812500,
+        "LA Bold 16 batang": 91501500
+    },
+    "top_products_profit": {
+        "Keripik kentang Chitato 68g": 31472951,
+        "Roma Kelapa 300g": 20690456,
+        "Basreng 100g": 17784735,
+        "Pocari Sweat 350ml": 15180294,
+        "Kopiko 78C 240ml": 14449565,
+        "Kratingdaeng 150ml": 12879193,
+        "Ultra Milk 250ml": 12155642,
+        "Teh Sariwangi 25 kantong": 11766976,
+        "Beras medium SPHP 5kg": 11482163,
+        "Surya 16 batang": 10505441
+    },
+    "forecast_quality": {
+        "MAE": 1.0552673937012689,
+        "RMSE": 1.7058299563034496,
+        "WAPE_%": 70.90442666742437,
+        "Bias_%": 2.1432669834624107,
+        "R2": 0.6467614753140808,
+        "WAPE_warung_hari_%": 13.94307705540574,
+        "baseline_WAPE_terbaik_%": 73.81417361712548,
+        "improvement_vs_baseline_%": 3.94198946775991,
+        "backend": "xgboost"
+    },
+    "category_elasticity": {
+        "Snack": {
+            "elasticity": -1.2321804714414824,
+            "ci_low": -1.770501590983054,
+            "ci_high": -0.6938593518999108,
+            "p_value": 7.246835362018089e-06,
+            "reliable": true
+        },
+        "Minuman": {
+            "elasticity": -0.9784057195044038,
+            "ci_low": -1.3620417894810917,
+            "ci_high": -0.5947696495277159,
+            "p_value": 5.772312328122808e-07,
+            "reliable": true
+        },
+        "Sembako": {
+            "elasticity": -0.9681271587399269,
+            "ci_low": -1.1183311373949334,
+            "ci_high": -0.8179231800849204,
+            "p_value": 0.0,
+            "reliable": true
+        },
+        "Mi": {
+            "elasticity": -0.9490082436947362,
+            "ci_low": -1.486461614576604,
+            "ci_high": -0.4115548728128683,
+            "p_value": 0.0005384330903082102,
+            "reliable": true
+        },
+        "Rokok": {
+            "elasticity": -0.8009351147402591,
+            "ci_low": -1.107524962499431,
+            "ci_high": -0.49434526698108716,
+            "p_value": 3.0504561876476544e-07,
+            "reliable": true
+        },
+        "Sachet": {
+            "elasticity": -0.6608172488131191,
+            "ci_low": -1.0174050925982492,
+            "ci_high": -0.30422940502798906,
+            "p_value": 0.00028100467211866764,
+            "reliable": true
+        },
+        "Deterjen": {
+            "elasticity": -0.1972530696524271,
+            "ci_low": -1.3220868395889491,
+            "ci_high": 0.927580700284095,
+            "p_value": 0.7310647901837601,
+            "reliable": false
+        },
+        "Perawatan": {
+            "elasticity": -0.12573361997134713,
+            "ci_low": -1.2019310135320382,
+            "ci_high": 0.9504637735893439,
+            "p_value": 0.8188770828202276,
+            "reliable": false
+        },
+        "LPG": {
+            "elasticity": -0.06250793025932032,
+            "ci_low": -0.889432193286036,
+            "ci_high": 0.7644163327673953,
+            "p_value": 0.8822179832219703,
+            "reliable": false
+        },
+        "Frozen": {
+            "elasticity": 0.06588075903342264,
+            "ci_low": -1.23654751089939,
+            "ci_high": 1.3683090289662354,
+            "p_value": 0.9210249495830269,
+            "reliable": false
+        },
+        "ATK": {
+            "elasticity": 0.1090501145704879,
+            "ci_low": -1.2290157292935289,
+            "ci_high": 1.4471159584345046,
+            "p_value": 0.873088488322586,
+            "reliable": false
+        },
+        "Bumbu": {
+            "elasticity": 0.2419874977936002,
+            "ci_low": -0.22465643217349981,
+            "ci_high": 0.7086314277607002,
+            "p_value": 0.30944036836299627,
+            "reliable": false
+        },
+        "Obat": {
+            "elasticity": 0.9521517180902718,
+            "ci_low": -0.2243720641163819,
+            "ci_high": 2.1286755002969255,
+            "p_value": 0.11269099028028351,
+            "reliable": false
+        },
+        "Plastik": {
+            "elasticity": 1.5626712296644338,
+            "ci_low": -0.2694646348687739,
+            "ci_high": 3.394807094197642,
+            "p_value": 0.0945776702288017,
+            "reliable": false
+        },
+        "Tisu": {
+            "elasticity": 2.555441152296988,
+            "ci_low": 0.164920383772035,
+            "ci_high": 4.945961920821941,
+            "p_value": 0.036151524404221425,
+            "reliable": false
+        },
+        "Bayi": {
+            "elasticity": 2.6847955485328314,
+            "ci_low": -0.6355945667666432,
+            "ci_high": 6.005185663832306,
+            "p_value": 0.1130087008542835,
+            "reliable": false
+        },
+        "RumahTangga": {
+            "elasticity": 5.926382150721748,
+            "ci_low": 3.6776210225911052,
+            "ci_high": 8.175143278852392,
+            "p_value": 2.399490723892228e-07,
+            "reliable": false
+        }
+    },
+    "price_sensitive_products_significant": {
+        "Bihun Rose Brand 320g": {
+            "elasticity": -3.435506040695868,
+            "ci_low": -5.537309607080424,
+            "ci_high": -1.3337024743113122
+        },
+        "Frestea 350ml": {
+            "elasticity": -3.0893334730784163,
+            "ci_low": -4.4035797537049275,
+            "ci_high": -1.7750871924519054
+        },
+        "Mi jumbo Indomie": {
+            "elasticity": -2.9815299560695436,
+            "ci_low": -4.781847080725969,
+            "ci_high": -1.1812128314131185
+        },
+        "Keripik kentang Chitato 68g": {
+            "elasticity": -2.9140222913247773,
+            "ci_low": -4.614367244422041,
+            "ci_high": -1.2136773382275132
+        },
+        "Basreng 100g": {
+            "elasticity": -2.7862566971269396,
+            "ci_low": -4.566779878125805,
+            "ci_high": -1.0057335161280743
+        },
+        "Beras premium 5kg": {
+            "elasticity": -2.6575206608936788,
+            "ci_low": -3.5955851730938453,
+            "ci_high": -1.7194561486935123
+        },
+        "Permen karet Big Babol": {
+            "elasticity": -2.5568169750919374,
+            "ci_low": -4.435341415132086,
+            "ci_high": -0.678292535051789
+        },
+        "Sampoerna Mild 16 batang": {
+            "elasticity": -2.238181005706763,
+            "ci_low": -4.11611415842433,
+            "ci_high": -0.3602478529891957
+        },
+        "Kopiko 78C 240ml": {
+            "elasticity": -2.107338234909569,
+            "ci_low": -3.7526392822966965,
+            "ci_high": -0.4620371875224416
+        },
+        "Beras medium SPHP 5kg": {
+            "elasticity": -2.084822193738211,
+            "ci_low": -2.769720264244564,
+            "ci_high": -1.3999241232318584
+        }
+    },
+    "anomalies_by_type": {
+        "POLA_TIDAK_BIASA": 2321,
+        "LONJAKAN_PENJUALAN": 1759,
+        "JUAL_DI_BAWAH_HPP": 160,
+        "LONJAKAN_HARGA": 3
+    },
+    "products_with_most_anomalies": {
+        "Korek gas": 75,
+        "LA Bold 16 batang": 71,
+        "Tepung beras Rose Brand 500g": 62,
+        "Garam Refina 500g": 59,
+        "Sampoerna A 16 batang": 59,
+        "Gudang Garam 16 batang": 55,
+        "Minyak goreng Fortune 1L": 54,
+        "Garam Dolphin 500g": 53,
+        "Marlboro 16 batang": 53,
+        "Beras premium 10kg": 52
+    },
+    "products_sold_below_cost": {
+        "LA Bold 16 batang": 35,
+        "Sampoerna A 16 batang": 31,
+        "Korek gas": 26,
+        "Djarum Super 12 batang": 20,
+        "Marlboro 16 batang": 19,
+        "Esse 16 batang": 10,
+        "Gudang Garam 16 batang": 9,
+        "Korek kayu": 4,
+        "Gudang Garam Filter 12 batang": 2,
+        "Sampoerna Mild 16 batang": 2
+    },
+    "top_basket_rules": [
+        {
+            "antecedents": "Gudang Garam Filter 12 batang",
+            "consequents": "Surya 16 batang",
+            "lift": 4.103683127572016,
+            "confidence": 0.05843621399176955
+        },
+        {
+            "antecedents": "Surya 16 batang",
+            "consequents": "Gudang Garam Filter 12 batang",
+            "lift": 4.103683127572016,
+            "confidence": 0.040340909090909094
+        },
+        {
+            "antecedents": "Surya 16 batang",
+            "consequents": "Djarum Super 12 batang",
+            "lift": 3.821768707482993,
+            "confidence": 0.045454545454545456
+        },
+        {
+            "antecedents": "Djarum Super 12 batang",
+            "consequents": "Surya 16 batang",
+            "lift": 3.8217687074829927,
+            "confidence": 0.05442176870748299
+        },
+        {
+            "antecedents": "Surya 16 batang",
+            "consequents": "Korek gas",
+            "lift": 3.706967515688446,
+            "confidence": 0.08125
+        },
+        {
+            "antecedents": "Korek gas",
+            "consequents": "Surya 16 batang",
+            "lift": 3.706967515688446,
+            "confidence": 0.05278700627537837
+        },
+        {
+            "antecedents": "Bihun Rose Brand 320g",
+            "consequents": "Mi soto Indomie",
+            "lift": 3.7036204295148023,
+            "confidence": 0.053878034339846066
+        },
+        {
+            "antecedents": "Mi soto Indomie",
+            "consequents": "Bihun Rose Brand 320g",
+            "lift": 3.7036204295148023,
+            "confidence": 0.05061179087875417
+        },
+        {
+            "antecedents": "Spaghetti La Fonte 225g",
+            "consequents": "Mi soto Indomie",
+            "lift": 3.697921952091204,
+            "confidence": 0.05379513633014001
+        },
+        {
+            "antecedents": "Mi soto Indomie",
+            "consequents": "Spaghetti La Fonte 225g",
+            "lift": 3.697921952091204,
+            "confidence": 0.040600667408231365
+        }
+    ],
+    "top_category_rules": [
+        {
+            "antecedents": "Bumbu",
+            "consequents": "Sembako",
+            "lift": 2.400962067312893,
+            "confidence": 0.34581604092269086
+        },
+        {
+            "antecedents": "Sembako",
+            "consequents": "Bumbu",
+            "lift": 2.4009620673128924,
+            "confidence": 0.24245500067668155
+        },
+        {
+            "antecedents": "LPG",
+            "consequents": "Rokok",
+            "lift": 2.3312335947452056,
+            "confidence": 0.35633551457465795
+        },
+        {
+            "antecedents": "Rokok",
+            "consequents": "LPG",
+            "lift": 2.331233594745205,
+            "confidence": 0.0763884460881209
+        },
+        {
+            "antecedents": "Deterjen",
+            "consequents": "Sembako",
+            "lift": 2.2412741359661332,
+            "confidence": 0.32281582407075415
+        },
+        {
+            "antecedents": "Sembako",
+            "consequents": "Deterjen",
+            "lift": 2.2412741359661332,
+            "confidence": 0.18277168764379484
+        },
+        {
+            "antecedents": "Deterjen",
+            "consequents": "Bumbu",
+            "lift": 2.1516828715012295,
+            "confidence": 0.21728217999282898
+        },
+        {
+            "antecedents": "Bumbu",
+            "consequents": "Deterjen",
+            "lift": 2.1516828715012295,
+            "confidence": 0.17546568864009265
+        },
+        {
+            "antecedents": "RumahTangga",
+            "consequents": "Rokok",
+            "lift": 2.135907883057449,
+            "confidence": 0.32647943831494486
+        },
+        {
+            "antecedents": "Rokok",
+            "consequents": "RumahTangga",
+            "lift": 2.135907883057449,
+            "confidence": 0.041509915194796916
+        }
+    ],
+    "top_predicted_demand_pred_7d": {
+        "W4 | Mi goreng Indomie": 80.19999694824219,
+        "W5 | Kopi Kapal Api sachet": 62.0,
+        "W4 | Kopi Kapal Api sachet": 57.599998474121094,
+        "W1 | Aqua 600ml": 53.5,
+        "W2 | Pocari Sweat 350ml": 40.400001525878906,
+        "W5 | Surya 16 batang": 38.599998474121094,
+        "W2 | Indomie Cup": 38.0,
+        "W2 | Teh Botol Sosro 350ml": 37.70000076293945,
+        "W2 | Ultra Milk 250ml": 37.5,
+        "W2 | Beng-Beng": 37.5,
+        "W2 | Teh Pucuk 350ml": 35.70000076293945,
+        "W4 | Ultra Milk 250ml": 35.400001525878906,
+        "W5 | Nutrisari sachet": 35.29999923706055,
+        "W1 | Teh Gelas 350ml": 35.0,
+        "W2 | Kratingdaeng 150ml": 34.400001525878906
+    }
+}

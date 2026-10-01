@@ -1,0 +1,20 @@
+{
+    "forecasting": {
+        "MAE": 1.0552673937012689,
+        "RMSE": 1.7058299563034496,
+        "WAPE_%": 70.90442666742437,
+        "Bias_%": 2.1432669834624107,
+        "R2": 0.6467614753140808,
+        "WAPE_warung_hari_%": 13.94307705540574,
+        "baseline_WAPE_terbaik_%": 73.81417361712548,
+        "improvement_vs_baseline_%": 3.94198946775991,
+        "backend": "xgboost"
+    },
+    "forecast_horizon_days": 7,
+    "n_rows_original": 508156,
+    "n_rows_daily_grid": 478235,
+    "n_anomalies": 4242,
+    "n_elasticity_products": 264,
+    "n_elasticity_significant": 34,
+    "n_association_rules": 297
+}
