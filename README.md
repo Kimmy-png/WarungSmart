@@ -60,6 +60,7 @@ WarungSmart/
 │   ├── simulation/             # Synthetic data simulator
 │   └── ui/                     # Streamlit UI components and styling
 ├── 00_original_WarungSmart.ipynb
+├── LICENSE                     # MIT license
 └── .gitignore
 ```
 
@@ -156,7 +157,7 @@ The AI Analytics page reads the generated outputs from `outputs/` and shows them
 
 ## License
 
-This project does not currently declare a license file at the repository root. If you plan to distribute or reuse it publicly, consider adding an appropriate open-source license.
+This project is licensed under the MIT License. See the [`LICENSE`](LICENSE) file for details.
 
 ## Project status
 
