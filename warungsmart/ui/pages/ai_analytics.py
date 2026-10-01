@@ -21,7 +21,7 @@ def render(ctx):
     c3.metric("WAPE", f"{100*fm.get('WAPE',0):.2f}%")
     c4.metric("R²", round(fm.get("R2",0),3))
     tabs=st.tabs(["Forecast","Anomaly","Elasticity","Basket","Business Insights"])
-    files=[("forecasts_test.csv",0),("anomalies.csv",1),("elasticity_category.csv",2),("basket_rules_category.csv",3),("business_insights.json",4)]
+    files=[("forecasts.csv",0),("anomalies.csv",1),("elasticity_category.csv",2),("basket_rules_category.csv",3),("business_insights.json",4)]
     for name,idx in files:
         with tabs[idx]:
             p=OUT/name
