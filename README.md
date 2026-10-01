@@ -6,23 +6,23 @@
   <img src="https://img.shields.io/badge/AI-%26%20Forecasting-Enabled-00C7B7" alt="AI Forecasting Enabled" />
 </p>
 
-WarungSmart AI is a synthetic retail intelligence project built for small warung and neighborhood retail businesses. It combines simulated transaction data, business logic, demand forecasting, anomaly detection, and a Streamlit-based dashboard to help simulate real operational decisions in a privacy-safe environment.
+WarungSmart AI is a synthetic retail intelligence project for small neighborhood stores (warung). It combines generated transaction data, accounting logic, inventory tracking, and AI-based forecasting into a local dashboard for operational decision making.
 
-This project is designed to:
+The project is designed to:
 
-- generate realistic retail transaction data for multiple stores
-- model inventory, stockouts, pricing, and daily business operations
-- provide forecasting and analytical insights for demand and operational risk
-- expose the results through a local dashboard and analysis workflow
+- generate realistic retail data for multiple stores
+- simulate daily sales, stockouts, pricing, and inventory behavior
+- model demand forecasting and business anomalies
+- expose results through a Streamlit dashboard and analytics workflow
 
 ## Highlights
 
 - Synthetic retail data generation across multiple warungs
-- 540-day simulation of business operations
-- Sales, inventory, stockouts, and pricing event modeling
-- Machine learning and statistical analytics pipeline
-- Streamlit dashboard for business monitoring and insights
-- Deterministic simulation output for reproducible experiments
+- 540-day simulated operations dataset
+- Sales, inventory, stockouts, pricing, and promotion modeling
+- Forecasting and analytics pipeline
+- Streamlit dashboard for monitoring and insights
+- Deterministic demo dataset for reproducible experiments
 
 ## Included dataset
 
@@ -36,47 +36,48 @@ The generated synthetic dataset includes:
 - 16,278 stockout events
 - 2,148 price changes
 
-The data is generated deterministically from configured seeds, which makes experiments reproducible when using the same setup.
+The simulation is deterministic for a fixed configuration and seed, so experiments remain reproducible with the same setup.
 
-## Project structure
+## Repository structure
 
 ```text
 WarungSmart/
-├── app.py                    # Streamlit application entry point
-├── README.md                # Project documentation
-├── requirements.txt         # Python dependencies
-├── requirements-dev.txt     # Development dependencies
-├── .streamlit/              # Streamlit configuration
-├── data/                    # Simulated and merged datasets
-├── models/                  # Model-related artifacts
-├── notebooks/               # Research and exploratory notebooks
-├── outputs/                 # Pipeline outputs and evaluation artifacts
-├── scripts/                 # Reproducible generation and pipeline scripts
-├── tests/                   # Test suite
-├── warungsmart/             # Core application package
-│   ├── analytics/           # Forecasting and analytics modules
-│   ├── business/            # Business/accounting logic
-│   ├── db/                  # SQLite and data-access layer
-│   ├── simulation/          # Synthetic data simulator
-│   └── ui/                  # Streamlit UI components and styling
-└── 00_original_WarungSmart.ipynb
+├── app.py                       # Streamlit application entry point
+├── README.md                   # Project documentation
+├── requirements.txt            # Python dependencies
+├── requirements-dev.txt        # Development dependencies
+├── .streamlit/                 # Streamlit configuration
+├── data/                       # Simulated and merged dataset files
+├── models/                     # Model artifacts placeholder
+├── notebooks/                  # Research and exploratory notebooks
+├── outputs/                    # Pipeline outputs and evaluation artifacts
+├── scripts/                    # Data generation and pipeline scripts
+├── tests/                      # Test suite
+├── warungsmart/                # Core application package
+│   ├── analytics/              # Forecasting and analytics modules
+│   ├── business/               # Business and accounting logic
+│   ├── db/                     # SQLite persistence layer
+│   ├── simulation/             # Synthetic data simulator
+│   └── ui/                     # Streamlit UI components and styling
+├── 00_original_WarungSmart.ipynb
+└── .gitignore
 ```
 
-## Repository modules
+## Main modules
 
 - `warungsmart/simulation/` — synthetic retail data generator
-- `warungsmart/analytics/` — modular analytics and forecasting pipeline
-- `warungsmart/business/` — accounting, inventory, and operational business logic
+- `warungsmart/analytics/` — demand forecasting, evaluation, and business analytics
+- `warungsmart/business/` — accounting and operational business logic
 - `warungsmart/db/` — SQLite-backed persistence layer
-- `warungsmart/ui/` — Streamlit interface and dashboard screens
-- `notebooks/` — experimentation and research notebooks
-- `data/simulated/` — generated and merged retail datasets
-- `outputs/` — results from the analytics pipeline
+- `warungsmart/ui/` — dashboard pages, styling, and UI helpers
+- `notebooks/` — experimentation and analysis notebooks
+- `data/simulated/` — generated retail dataset inputs
+- `outputs/` — generated AI and analytics outputs
 - `scripts/` — automation scripts for data generation and pipeline execution
 
 ## Quick start
 
-1. Create and activate a virtual environment (optional but recommended):
+1. Create and activate a virtual environment (recommended):
 
 ```bash
 python -m venv .venv
@@ -97,7 +98,7 @@ pip install -r requirements.txt
 python scripts/generate_data.py
 ```
 
-4. Build the merged dataset:
+4. Build or merge the dataset:
 
 ```bash
 python scripts/build_merged_data.py
@@ -109,32 +110,53 @@ python scripts/build_merged_data.py
 python scripts/run_pipeline.py
 ```
 
+This step creates the files under `outputs/`, including forecast and analytics artifacts such as:
+
+- `forecasts.csv`
+- `future_forecast.csv`
+- `future_forecast_summary.csv`
+- `anomalies.csv`
+- `elasticity_category.csv`
+- `basket_rules_category.csv`
+- `business_insights.json`
+- `metrics.json`
+
 6. Start the app:
 
 ```bash
 streamlit run app.py
 ```
 
-## Usage
+## Dashboard usage
 
-After launching the app, the dashboard lets you explore:
+After launching the app, the dashboard includes:
 
-- daily transaction trends
-- inventory and stockout conditions
-- operational performance
-- AI-powered insights
-- market and retail analytics
-- privacy-aware business reporting
+- Dashboard overview
+- Transaction recording
+- Inventory management
+- AI personal insight
+- Retail AI analytics
+- Market trend analysis
+- Data privacy and security page
+
+The AI Analytics page reads the generated outputs from `outputs/` and shows them in tabs such as:
+
+- Forecast
+- Anomaly
+- Elasticity
+- Basket
+- Business Insights
 
 ## Notes
 
-- The simulator is deterministic for a fixed configuration and seed set.
-- Re-running generation replaces the existing simulated CSV outputs with a fresh deterministic run.
-- The project is intended for local experimentation, analysis, and demo use.
+- The simulator is deterministic for a fixed configuration and seed.
+- Re-running generation replaces existing simulated CSV outputs with a fresh deterministic run.
+- The pipeline must be executed before opening the AI analytics dashboard to populate the output files.
+- This project is intended for local experimentation, analysis, and demo use.
 
 ## License
 
-This project does not currently declare a license file in the repository root. If you plan to distribute or reuse it publicly, consider adding an appropriate open-source license.
+This project does not currently declare a license file at the repository root. If you plan to distribute or reuse it publicly, consider adding an appropriate open-source license.
 
 ## Project status
 
